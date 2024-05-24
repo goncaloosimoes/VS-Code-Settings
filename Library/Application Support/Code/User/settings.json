@@ -111,11 +111,10 @@
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
     "symbols.hidesExplorerArrows": true,
-    "window.density.editorTabHeight": "compact",
     "workbench.editor.showTabs": "multiple",
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "workbench.editor.enablePreview": false,
     "breadcrumbs.enabled": false,
     "explorer.confirmDragAndDrop": false,
-    "git.openRepositoryInParentFolders": "always",
+    "window.density.editorTabHeight": "compact"
 }
