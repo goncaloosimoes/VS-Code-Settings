@@ -1,6 +1,5 @@
 {
     "code-runner.executorMap": {
-
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
@@ -58,14 +57,13 @@
     "code-runner.runInTerminal": true,
     "files.autoSave": "afterDelay",
     "[html]": {
-        
         "editor.suggest.insertMode": "replace",
         "editor.formatOnType": true,
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "liveServer.settings.AdvanceCustomBrowserCmdLine": "safari",
     "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "★★★★★ GRUVBOX ★★★★",
     "tabnine.experimentalAutoImports": true,
     "problems.showCurrentInStatus": true,
     "editor.suggest.showStatusBar": true,
@@ -76,7 +74,7 @@
     "editor.fontFamily": "JetBrains Mono, monospace, Menlo, Monaco, 'Courier New'",
     "editor.fontSize": 14,
     "editor.lineHeight": 1.7,
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "none",
     "editor.renderLineHighlight": "gutter",
     "editor.fontLigatures": true,
     "explorer.compactFolders": false,
@@ -88,6 +86,8 @@
     "workbench.statusBar.visible": false,
     "window.titleBarStyle": "native",
     "apc.electron": {
+        "opacity": 0.85,
+        "transparent": true,
         "titleBarStyle": "hiddenInset",
         "trafficLightPosition": {
             "x": 11,
@@ -104,7 +104,7 @@
     "apc.font.family": "Inter",
     "apc.stylesheet": {
         ".title-label > h2": "display: none",
-        ".editor-actions": "display: none",
+        ".editor-actions": "display: all",
         ".pane-body": "padding: 6px",
         ".pane-header": "padding: 0 8px"
     },
@@ -116,5 +116,10 @@
     "workbench.editor.enablePreview": false,
     "breadcrumbs.enabled": false,
     "explorer.confirmDragAndDrop": false,
-    "window.density.editorTabHeight": "compact"
+    "window.density.editorTabHeight": "compact",
+    "vscode_vibrancy.opacity": 0.4,
+    "vscode_vibrancy.enableAutoTheme": true,
+    "vscode_vibrancy.theme": "GitHub Dark Default",
+    "vscode_vibrancy.preferedDarkTheme": "GitHub Dark Default",
+    "vscode_vibrancy.refreshInterval": 100
 }
